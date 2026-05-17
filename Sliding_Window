@@ -1,6 +1,10 @@
-# 1. Maximum Sum Subarray of Size K
+#-------------------------------------
+# 1. Maximum Sum Subarray of Size K=3
+#-------------------------------------
 
 # Brute Force Approach
+# Checked everything, Easy code, but slower
+
 arr = [2,3,5,2,9,7,1]
 k = 3
 max_sum = 0
@@ -22,7 +26,7 @@ print(max_sum)
 # Total: O(n * k)
 
 # Better / Optimized Approach
-
+# Minnimum time requred fo run, avoid repeating 
 
 
 # Time Complexity
