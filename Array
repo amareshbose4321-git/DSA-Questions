@@ -18,7 +18,7 @@ print(reverse)
 # Using reverse() method
 arr = [1,2,3,4,5]
 arr.reverse()
-print(reverse)
+print(arr)
 
 # Using reversed() function
 arr = [1,2,3,4,5]
@@ -52,3 +52,29 @@ for i in arr:
         second = i
 print("Second Largest Element:",second)
 
+# 4. Remove Duplicates from Array
+
+# Converting set
+arr = [1,2,2,3,4,4,5]
+unique = list(set(arr))
+print(unique)
+
+# Using for loop
+arr = [1,2,2,3,4,4,5]
+unique = []
+
+for i in arr:
+    if i not in unique:
+        unique.append(i)
+print(unique)
+
+# 5. Find Missing Number in Array
+
+arr = [1,2,3,5] # here missing number 4
+n = 5
+
+total = n*(n+1)//2
+sum_arr = sum(arr)
+missing = total - sum_arr
+
+print("Missing Number is:",missing)
