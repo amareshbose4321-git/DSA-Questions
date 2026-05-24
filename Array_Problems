@@ -1,0 +1,86 @@
+# For intoduction of array and all basic: 
+# 2. Array in python | Chai aur DSA (In YouTube)
+# Link: https://youtu.be/eOSk6WDYqr0?si=aefPqKaSjABaZvgP
+
+# from numpy import * 
+from array import * #--> in that case we need to declare data type like: 'i', 'f', etc... 
+
+#----------------------------------------
+# 1. Find the largest number in an array.
+#----------------------------------------
+
+# arr1 = array('i',[4,6,2,8,10,3])
+# largest = arr1[0]
+# print(type(arr1))
+
+# for i in arr1:
+#     if i > largest:
+#         largest = i
+# print("Largest Number is:",largest)
+
+
+#----------------------
+# 2. Reverse an Array
+#----------------------
+
+# Using reverse() method
+# arr3 = array('i',[1,2,3,4,5])
+# arr3.reverse()
+
+# for i in range(len(arr3)): # normal loop using range
+#     print(arr3[i], end=" ")
+    
+# print('\n')
+
+# for j in arr3: # advanced lopp using variable name
+#     print(j, end=" ")
+
+
+#--------------------------------
+# 3. Find Second Largest Element
+#--------------------------------
+
+# Using sorting method 
+# arr5 = array([32,56,7,65,99,45])
+# arr5.sort()
+# print("Second Largest Element:",arr5[-2])
+
+# # Using without sort method (using loop)
+# arr6 = array([32,56,7,65,99,45])
+# largest = second = arr6[0]
+
+# for i in arr6:
+#     if i > largest:
+#         second = largest
+#         largest = i
+#     elif i > second and i != largest:
+#         second = i
+# print("Second Largest Element:",second)
+
+
+#----------------------------------
+# 4. Remove Duplicates from Array
+#----------------------------------
+
+# Using for loop
+# arr8 = array('i',[1,2,2,3,4,4,5])
+# unique = []
+
+# for i in arr8:
+#     if i not in unique:
+#         unique.append(i)
+# print(unique)
+
+#----------------------------------
+# 5. Find Missing Number in Array
+#----------------------------------
+
+# arr9 = array([1,2,3,5]) # here missing number 4
+# n = 5
+
+# total = n*(n+1)//2
+# sum_arr = sum(arr9)
+# missing = total - sum_arr
+
+# print("Missing Number is:",missing)
+
