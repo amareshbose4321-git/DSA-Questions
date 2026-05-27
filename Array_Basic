@@ -1,4 +1,9 @@
-from array import *
+# For intoduction of array and all basic: 
+# 2. Array in python | Chai aur DSA (In YouTube)
+# Link: https://youtu.be/eOSk6WDYqr0?si=aefPqKaSjABaZvgP
+
+# from numpy import * 
+from array import * #--> in that case we need to declare data type like: 'i', 'f', etc... 
 
 #----------------------------
 # Different methods in array
